@@ -4,6 +4,6 @@ from google import genai
 cliente = genai.Client()
 resposta = cliente.models.generate_content(
     model="gemini-3.5-flash-lite",
-    contents=["explique para mim o que é uma API?"]
+    contents=["quem é mais forte o goku ou o saitama?"]
 )
 print(resposta.text)
